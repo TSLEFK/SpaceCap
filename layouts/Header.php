@@ -3,10 +3,9 @@
 /**
  *@author TSLEFK
  *
- *role: mk toppage's header
- *call back to: TopPage.php
+ *role: mk index's header
+ *call back to: index.php
  */
 
 require 'SiteName.php';
 require 'Navigater.php';
-

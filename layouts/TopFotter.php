@@ -3,15 +3,15 @@
 /**
  *@author TSLEFK
  *
- *role: mk toppage's fotter
- *call back to: TopPage.php
+ *role: mk index's fotter
+ *call back to: index.php
  */
 
 require 'Sitemap.php';
 
 ?>
 
-<div id="footbar">
+<div id="footer_bar">
     <div id="copyright">
         2016- created by TSLEFK
     </div>

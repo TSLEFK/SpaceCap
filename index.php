@@ -11,5 +11,37 @@
   *
   *
   */
+    $title = "SpaceCatcher(仮)";
+?>
 
-require __DIR__.'/layouts/TopPage.php';
+<!DOCTYPE html>
+<html>
+    <head>   
+<?php 
+//head tags -JS,CSS, and more... 
+require 'layouts/TopHead.php';
+?>
+    </head>
+    <body>
+        <header>
+<?php
+//header tag -has SiteName,Navigater
+require 'layouts/Header.php';
+?>
+        </header>
+        <div id="main" role="main">
+
+<?php
+        //HTML code
+         require 'layouts/TopPage.php';
+?>
+
+        </div>
+        <footer>
+<?php
+//footer tag -has Sitemap 
+require 'layouts/TopFotter.php';
+?>
+        </footer>
+    </body>
+</html>

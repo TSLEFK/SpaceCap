@@ -1,0 +1,70 @@
+@charset "UTF8";
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+html,body{
+    margin: 0 auto;
+}
+
+/*----header------*/
+header{
+    height: 140px;
+    border-bottom: solid 1px #777;
+}
+
+#sitename{
+    height: 80px;
+}
+
+#nav{
+    height: 40px;
+    border-top: solid 1px #555;
+    border-bottom:  solid 1px #555;
+}
+
+#nav li{
+    height: 40px;
+    line-height: 40px;
+}
+
+#navigatebar{
+    width: 1000px;
+    margin: auto;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*----fotter------*/
+footer{
+    height: 80px;
+    background-color: #444;
+    color: #FFF;
+}
+
+#sitemap{
+    height: 60px;
+}
+
+#map{
+    
+}
+
+#footer_navi{
+    
+}
+
+#footer_bar{
+    height: 20px;
+}
+
+#copyright{
+    font-size: small;
+    color: #666;
+}

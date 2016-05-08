@@ -10,12 +10,10 @@
 ?>
 
 <div id="sitemap">
-    <div class="container">
         <div id="map">
             
         </div>
-        <ul id="footernavi">
+        <ul id="footer_navi" class="list-inline">
             <li>Home</li>
         </ul>
-    </div>
 </div>
